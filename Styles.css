@@ -1,0 +1,270 @@
+.bckgrnd {
+    display: flex;
+    justify-content: center;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+   
+}
+.frsthalf {
+    width: 1280px;
+    height: 530px;
+    background-color: white;
+    background-image: url("img/bg.png");
+    /*position: absolute;*/
+}
+.frsthalab {
+    width: 1280px;
+    height: 530px;
+    background-color: white;
+    background-image: url("img/Aboutbg.png");
+   /* position: absolute*/
+}
+.frsthalcon {
+    width: 1280px;
+    height: 530px;
+    background-color: white;
+    background-image: url("img/Conrctbg.png");
+    /*position: absolute*/
+}
+.frsthalgal {
+    width: 1280px;
+    height: 530px;
+    background-color: white;
+    background-image: url("img/Gallerybg.png");
+   /* position: absolute*/
+}
+.nav-link {
+    color: red;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+body {
+    background-color: #bab8ba;
+}
+.nav-logo {
+    text-decoration: none;
+    color: white;
+   
+    padding: 20px;
+    padding-left:100px;
+   
+}
+.logo {
+    padding-top: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    font-family: Arial;
+   
+}
+.nav-item {
+    display:flex;
+    padding:20px;
+    padding-right:100px;
+
+}
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Agency FB';
+    font-size:larger;
+    font-weight:bold
+}
+
+.scndhalf {
+    width: 1280px;
+    height: 530px;
+    background-color: white;
+    /*position: absolute;*/
+}
+.Main-tittle {
+    justify-content: center;
+    color: black;
+   
+    font-size: xx-large;
+    font-weight: bold;
+}
+.project-item {
+    
+}
+.textittle {
+    justify-content: center;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    
+}
+.textbody {
+    justify-content: center;
+    color: black;
+    font-size: x-large;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.projects-list {
+    display: flex;
+    font-family: 'Agency FB';
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.project-img
+{
+    width:180px;
+    height:280px;
+    margin:20px;
+
+}
+.gal-img {
+    width: 200px;
+    height: 200px;
+    margin:20px 20px 5px 20px;
+}
+.postertxt {
+    justify-content: center;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    margin:5px;
+}
+.conone {
+    width: 400px;
+    height: 600px;
+    margin: 20px 20px 5px 20px;
+}
+.contwo {
+    width: 400px;
+    height: 600px;
+    margin: 20px 20px 5px 20px;
+}
+.conitem{
+
+}
+.contact {
+    display: flex;
+    font-family: 'Agency FB';
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.coninput {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.btn {
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background-color: #a334e8;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 40px 2px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    
+   
+}
+.tulink {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding-left:170px;
+    padding-right:170px;
+    padding-top:5px;padding-bottom:10px;
+
+}
+.social {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial;
+    background-color: #a334e8;
+    width: 1280px;
+    height: 40px;
+    /* margin-left:26px;
+    margin-right:26px;*/
+}
+.socialdiv {
+   
+}
+.socialimg{
+    width:30px;
+    height:30px;
+    padding:5px;
+}
+.frsthalfver {
+    margin-top: 30px;
+    width: 640px;
+    height: 700px;
+}
+.scndhalfver {
+    margin-top: 30px;
+    width: 640px;
+    height: 700px;
+}
+.movieimg {
+    width: 500px;
+    height: 650px;
+    margin: 20px;
+    margin-left: 70px;
+    border-radius: 10%;
+}
+.mobietxt {
+    justify-content: center;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    margin: 5px;
+    line-height: 1.8;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.movietitle {
+    margin-right: 70px;
+    margin-left: 70px;
+    justify-content: center;
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    margin: 5px;
+}
+.bckgrndtu {
+    /*display: flex;*/
+    justify-content: center;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    background-color: #a334e8;
+    width: 1280px;
+    height: 700px;
+    position: absolute;
+   
+}
+.tkuimg {
+    padding-left: 30px;
+}
